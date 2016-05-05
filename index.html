@@ -2,91 +2,157 @@
 
 <head>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="index.js"></script>
+
     <style type="text/css">
         h1 {
-    text-align: center;
-}
-
-<style style="text/css">
-.example1 {
- height: 50px;	
- overflow: hidden;
- position: relative;
-}
-.example1 h3 {
- position: absolute;
- width: 100%;
- height: 100%;
- margin: 0;
- line-height: 50px;
- text-align: center;
- /* Starting position */
- -moz-transform:translateX(100%);
- -webkit-transform:translateX(100%);	
- transform:translateX(100%);
- /* Apply animation to this element */	
- -moz-animation: example1 15s linear infinite;
- -webkit-animation: example1 15s linear infinite;
- animation: example1 15s linear infinite;
-}
-/* Move it (define the animation) */
-@-moz-keyframes example1 {
- 0%   { -moz-transform: translateX(100%); }
- 100% { -moz-transform: translateX(-100%); }
-}
-@-webkit-keyframes example1 {
- 0%   { -webkit-transform: translateX(100%); }
- 100% { -webkit-transform: translateX(-100%); }
-}
-@keyframes example1 {
- 0%   { 
- -moz-transform: translateX(100%); /* Firefox bug fix */
- -webkit-transform: translateX(100%); /* Firefox bug fix */
- transform: translateX(100%); 		
- }
- 100% { 
- -moz-transform: translateX(-100%); /* Firefox bug fix */
- -webkit-transform: translateX(-100%); /* Firefox bug fix */
- transform: translateX(-100%); 
- }
-}
-
-h3 {
-    font-size: 250%;
-}
-
-
+            text-align: center;
+        }
     </style>
+
+
 </head>
 
 
 <body>
+
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+
+    <div class="pad50"></div>
+    <div class="container"> </div>
+
+
+    <div class="font">
+        <h1>  QuickFilick</h1>
+    </div>
+
+
+    <p>Follow Us!</p>
+
+    <a href="https://www.facebook.com/" class="button facebook"><span><i class="icon-facebook"></i></span><p>Facebook</p></a>
+
+    <a href="https://twitter.com/" class="button twitter"><span><i class="icon-twitter"></i></span><p>Twitter</p></a>
+
+    <a href="https://play.google.com/store?hl=en" class="button android"><span><i class="icon-android"></i></span><p>Android</p></a>
+
+
+    <a href="https://itunes.apple.com/us/genre/ios/id36?mt=8" class="button apple"><span><i class="icon-apple"></i></span><p>apple</p></a>
+
+
+    <a href="https://www.instagram.com/" class="button instagram"><span><i class="icon-instagram"></i></span><p>instagram</p></a>
+
+    <a href="https://www.pinterest.com/" class="button pinterest"><span><i class="icon-pinterest"></i></span><p>pinterest</p></a>
+
+
+    </div>
+
+
+    </div>
+
+
+    <div class="right">
+        <div class="share share_type_twitter">
+            <span class="share__count">868</span>
+            <a class="share__btn" href="#">Tweet</a>
+        </div>
+        <div class="share share_type_facebook">
+            <span class="share__count">1.3K</span>
+            <a class="share__btn" href="#">Like</a>
+        </div>
+        <div class="share share_type_gplus">
+            <span class="share__count">28</span>
+            <a class="share__btn" href="#">+1</a>
+        </div>
+    </div>
+
+
+
+    <br />
+    <!-- spacer -->
+    <br />
+    <!-- spacer -->
+    <br />
+    <!-- spacer -->
+    <br />
+    <!-- spacer -->
+
+
+
+
+    <h1>
+<div class="left">
+<br /><!-- spacer -->
+<br /><!-- spacer -->
+<br /><!-- spacer -->
+<br /><!-- spacer -->
+<br /><!-- spacer -->
+<br /><!-- spacer -->
+
+
+    <input id="url1" type="text" class="form-control" placeholder="                enter url">
+    <input id="url2" type="text" class="form-control" placeholder="                enter url">
+    <input id="url3" type="text" class="form-control" placeholder="                enter url">
+    <input id="url4" type="text" class="form-control" placeholder="                enter url">
+    <input id="url5" type="text" class="form-control" placeholder="                enter url">
+
+
+
     
-    
-  <h1>
-     <div class="left">
-            <input id="mood" type="text" class="form-control" placeholder="enter url">
-              <button id="Flickr"> Upload from image URL</button>
+ <br /><!-- spacer -->
+  <a id="image-upload"> Upload from image URL </a>
               
-              
+     
           </div>
     </h1>
 
-<div class="example1">
-<h3>QuickFlick QuickFlick QuickFlick QuickFlick QuickFlick</h3>
-</div>
-         
-
     <div class="right">
-       <h1>
+        <br />
+        <!-- spacer -->
+        <br />
+        <!-- spacer -->
+
+        <h1>
         <a href="https://www.flickr.com"><img src="yahoo-flickr-logo.jpg">
         </h1>
-        
-         <h1>
+
+
+        <h1>
+            
         <button id="Flickr"> Upload from Flickr</button>
         </h1>
+    </div>
+
+
+    <div class="jumbotron text-center">
+        <div class="container">
+
+
         </div>
-        
-        
+    </div>
+    <div class="container">
+        <!-- Example row of columns -->
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button victoria-one">Sign up</a> </div>
+            <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button victoria-two">Login</a> </div>
+            <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button victoria-three">Register</a> </div>
+            <div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button victoria-four">Learn more</a> </div>
+        </div>
+
+
 </body>
+
 </html>
